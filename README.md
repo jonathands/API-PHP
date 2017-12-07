@@ -16,7 +16,7 @@ $kinghost = new Email($login, $senha);
 $param = array(
     'idDominio'    => 1111111,
     'caixa'        => 'meuemail@dominio.com.br',
-    'destino'      => 'email1@dominio.com.br,email2@dominio.com.br
+    'destino'      => 'email1@dominio.com.br,email2@dominio.com.br'
 );
 
 $r = $kinghost->addMulti($param);
